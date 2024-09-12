@@ -1,0 +1,40 @@
+img.logo1
+{
+width:40px;
+	height:40px;
+	margin-left:20px;
+	float:left;
+}
+.cnname
+{
+	text-align:left;
+	text-transform:capitalize;
+	font-weight:bold;
+	margin:10px 0px 0px 10px;
+	font-size: 16px;
+	float: left;
+	color: aliceblue;
+}
+.slogam
+{
+	text-align:left;
+	text-transform:capitalize;
+	font-size: 10px;
+	margin:30px 0px 0px 10px;
+	color: aliceblue;	
+}
+.detail
+{
+	text-align:left;
+	text-transform:capitalize;
+	font-size: 12px;
+	margin:40px 0px 0px 10px;
+	color: aliceblue;
+}
+img.logo2
+{
+    width:40px;
+	height:40px;
+	
+	
+}

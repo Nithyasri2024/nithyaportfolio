@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.ourData li
+{
+	list-style:none;
+	text-align:right;
+	text-transform:capitalize;
+	margin:30px 20px;
+	font-size:18px;
+	color:#C7C7C7; 
+}

@@ -1,0 +1,42 @@
+.logo3
+
+{
+    width:40px;
+	height:40px;
+	margin-left:20px;
+	float:left;
+}
+.cool
+{
+    text-align:left;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin: 0px 0px 0px 10px;
+    float: left;
+}
+.sign
+{
+	text-align:left;
+	text-transform:capitalize;
+	font-size: 15px;
+	margin:22px 0px 0px 20px;
+	color: aliceblue;
+	
+}
+.white
+{
+    text-align:left;
+	text-transform:capitalize;
+	font-size: 15px;
+	margin:22px 0px 0px 20px;
+	color: aliceblue;
+	
+}
+.agre
+{
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 12px;
+}
