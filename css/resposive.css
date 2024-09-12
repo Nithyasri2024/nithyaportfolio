@@ -1,0 +1,427 @@
+*
+{
+    scroll-behavior: smooth;
+}
+.top
+{
+    position: fixed;
+    z-index: 2;
+    width:100%;
+}
+.hole
+{
+    width: 100%;
+}
+
+.name
+{
+    position: absolute;
+    color: rgb(238, 34, 34);
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 20vw;
+    margin-left: 20vw;
+    text-transform: uppercase;
+}
+.name p
+{
+    font-size: 2vw;
+    color: rgb(238, 34, 34);
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.name p span
+{
+    border-bottom: 0.2vw solid rgb(82, 187, 229);
+}
+#about
+ {
+        width: 100%;
+        background-color:rgb(236, 230, 230);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: justify;
+        text-transform: capitalize;
+        font-size: 1.2em;
+        padding: 30px;
+    
+}
+#about span
+{
+        text-align: left;
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: capitalize;
+        border-bottom: 4px solid rgb(82, 187, 229);
+        margin-left: 20px;
+}
+.doll 
+{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    align-items: center;
+
+}
+.abouthead
+{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.detail
+{
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.detail b , details
+{
+    text-transform: capitalize;
+}
+.local
+{
+    margin-top: 20px;
+    text-transform: capitalize;
+    word-spacing: 2px;
+}
+.skills
+{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    background-size: cover;
+}
+.start
+{
+    color: orangered;
+    font-size: 2em;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 60px;
+}
+.explain
+{
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: justify;
+    color: orange;
+    font-size: 18px;
+}
+.html
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: orangered;
+}
+#resume
+{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight:bold;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 60px;
+}
+.educ
+{
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+}
+.educ span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.educ span:hover
+{
+    background-color: black;
+    color: orangered;
+    margin: 10px;
+    font-size: 25px;
+}
+.det ul li
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.educat
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.msc
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.msc span
+{
+    font-size: 18px;
+    background-color: rgb(96, 96, 188);
+    color: rgb(7, 234, 158);
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 5px;
+}
+.college
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+.college span
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-transform: initial;
+}
+.flip
+{
+    width: 250px;
+    height: 150px;
+    background-color:transparent;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.flipin
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    border-radius: 40px;
+}
+.flip:hover .flipin
+{
+    transform: rotateY(180deg);
+}
+.fronts,.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.fronts
+{
+    background-color: black;
+    color: palegreen;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.back
+{
+    background-color: rgb(188, 188, 188);
+    color:greenyellow ;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 40px;
+}
+.ones
+{
+    margin: 50px;
+    color: palegreen;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.two
+{
+    margin: 30px;
+    color:greenyellow ;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+#port
+{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(241, 241, 243);
+}
+.nam
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 50px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(4, 31, 184);
+    margin-top: 20px;
+}
+.fone
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.port-item
+{
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    height: 250px;
+    margin: 20px;
+}
+.port-info
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(17, 227, 143);
+    margin-left: 35px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform:scale(0);
+    transition: 0.4s;
+    border-radius: 15px;
+    visibility: hidden;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.port-item:hover .port-info
+{
+    transform: scale(1);
+    visibility: visible;
+}
+.port-info a
+{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 46px;
+    transition: 0.4s;
+    color: cadetblue;
+}
+.port-info a:hover
+{
+    background-color: black;
+    color: orangered;
+}
+#contact
+{
+    width: 100%;
+    height: 700px;
+    background-color:white;
+}
+.namo
+{
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 4px solid rgb(82, 187, 229);
+    width: 50px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(4, 31, 184);
+    margin-top: 20px;
+}
+.contacts
+{
+    margin-top: 50px;
+    background-color: beige;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    padding: 20px;
+}
+.contact-left
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0px 0;
+}
+.icon i
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(101, 226, 167);
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: rgb(101, 226, 167);
+    transition: 0.5s;
+} 
+.contact-left:hover .icon i
+{
+    background-color: rgb(101, 226, 167);
+    color: beige;
+}
+.infor h4
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.infor p
+{
+     font-size: 15px;
+     font-weight: 500;
+}
+.send
+{
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    width: 380px;
+    margin-left: 20px;
+    align-items: center;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 30px 0;
+}
+form input,textarea
+{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    transition: 0.4s;
+}
+form input:focus,textarea:focus
+{
+    border: 2px solid rgb(101, 226, 167);
+}

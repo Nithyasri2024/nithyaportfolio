@@ -1,0 +1,55 @@
+time
+{
+    float: right;
+}
+time span
+{
+    color:blue;
+}
+p.head 
+{
+    color:blue;
+    text-align: justify;
+  font-size: 35px;
+  line-height:35px ;
+  font-weight: bold;
+}
+.head:hover
+{
+    color: red;
+}
+
+p.heading
+{
+    font-size: 11px;
+    text-align: justify;
+} 
+p.heads
+{
+    font-size:20px ;
+    text-align: justify;
+    color:blue;
+    line-height:22px ;
+}
+.heads:hover
+{
+    color: rgb(207, 66, 66);
+}
+.box
+{
+	background-color:#e3e3e3;
+	padding:5px;
+	margin:5px 0;
+}
+.box:hover
+{
+    background-color: rgb(202, 75, 158);
+}
+p.a 
+{
+    font-size:11px ;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}

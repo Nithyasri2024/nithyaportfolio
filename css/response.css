@@ -1,0 +1,540 @@
+
+body
+{
+    /*background-image: linear-gradient(to right bottom, #6bd17d, #00ceab, #00c6d7, #00baf7, #00a7ff, #6f99fb, #a188eb, #c675d2, #e068bb, #f25e9e, #fb5a7f, #fb5f5f);*/
+    /*background-image: linear-gradient(to right bottom, #f400ff, #ff0087, #ff6500, #e3ba00, #5eeb12);*/
+    /*background-image: linear-gradient(to left top, #f41c67, #ee6d2c, #c7a61b, #8fd162, #3af0c0);*/
+    /*background-image: linear-gradient(to right top, #ff57b6, #de7be2, #b399fc, #8aafff, #75c0fc, #5acaf4, #56d2e6, #69d7d3, #77dab4, #9cd98e, #cad26d, #fbc55f);*/
+   /* background-image: linear-gradient(to right top, #6b033e, #631f58, #53336c, #3d427a, #224f80, #18507e, #0c517c, #005279, #004a75, #004170, #00396a, #013064);*/
+   /*background-color:#13303e;*/
+   background-color: rgb(0, 0, 0);
+
+}
+*
+{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+.call ul li{
+    color:#ffffff;
+}
+.call ul li :hover{
+    color:rgb(0, 114, 195);
+}
+.top
+{
+    position: fixed;
+    z-index: 2;
+    width:100%;
+}
+.hole
+{
+    width: 100%;
+}
+.name
+{
+    position: absolute;
+    color: rgb(247, 241, 241);
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing:2px ;
+    margin-top: 20vw;
+    margin-left: 55vw;
+    text-transform: uppercase;
+    
+} 
+
+.name p
+{
+    font-size: 3vw;
+    color: rgb(247, 241, 241);
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+.name p span
+{
+    border-bottom: 0.2vw solid rgb(82, 187, 229);
+    color:rgb(0, 114, 195);
+}
+#about
+ {
+        width: 100%;
+        height:200%;
+        background-color:transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: justify;
+        text-transform: capitalize;
+        font-size: 1.2em;
+        padding: 30px;
+        color:#ffffff;
+    
+}
+#about span
+{
+        
+    font-size: clamp(3.75rem, 3.4756rem + 1.2195vw, 5rem);
+        font-weight:150px;
+        color:  #ffffff;
+        text-transform: uppercase;
+        /*border-bottom: 4px solid rgb(82, 187, 229);*/
+        margin-left: 10px;
+}
+blockquote{
+    text-transform: initial;
+     color: #d6d3d3;
+}
+.doll 
+{
+    width: 290px;
+    height: 353px;
+    background-size: cover;
+    border-radius:50px;
+    align-items: center;
+    margin-left: 45px;
+
+}
+.abouthead
+{
+    color: #d6d3d3;
+    font-size: 30px;
+  
+    font-weight: bold;
+}
+.detail
+{
+    font-size: 16px;
+    color:  #eae7e7;
+    text-transform: capitalize;
+}
+.detail b , details
+{
+    text-transform:capitalize;
+    
+}
+.local
+{
+    margin-top: 20px;
+    text-transform: initial;
+    word-spacing: 4px;
+    color: #d6d3d3;
+}
+.skills
+{
+    width: 100%;
+    
+    padding: 20px;
+    background-size: cover;
+    background-color:#13303e;
+}
+.start
+{
+    font-size: 3em;
+    font-weight:150px;
+    color:  #ffffff;  
+    margin-left: 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    /*border-bottom: 4px solid rgb(47, 56, 221);*/
+    
+}
+.explain
+{
+    padding: 50px;
+    text-transform: initial;
+    text-align: justify;
+    color:lightgray;
+    font-size: 18px;
+}
+.html
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:#ffffff;
+}
+#resume
+{
+    font-size: 3em;
+    font-weight:150px;
+    color:  #ffffff;  
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    /*border-bottom: 4px solid rgb(82, 187, 229);*/
+    width: 60px;
+}
+.hit
+{
+    color:white;
+    margin-top: 5px;
+}
+.hit:hover
+{
+        /*color: white;*/
+            /* Safari and Chrome */
+          /*-webkit-box-shadow: 7px 7px 20px 0px  rgba(5, 226, 20, 0.3), 
+                                             40px 40px 10px -40px  rgba(170, 0, 255, 0.8) inset;*//*X-Axis, Y-Axis, Feather, Size, Color*/
+         /* CSS3 */
+          /*box-shadow: 7px 7px 20px 0px  rgba(5, 226, 20, 0.3), 
+                                 40px 40px 10px -40px  rgba(170, 0, 255, 0.8) inset;*/
+}
+.educ
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(235, 234, 234);
+    margin-bottom:40px;
+}
+.educ span
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.educ span:hover
+{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+        /* Safari and Chrome */
+      -webkit-box-shadow: 7px 7px 20px 0px  rgba(246, 43, 3, 0.3), 
+                                         40px 40px 10px -40px  rgba(254, 252, 251, 0.8) inset;/*X-Axis, Y-Axis, Feather, Size, Color*/
+     /* CSS3 */
+      box-shadow: 7px 7px 20px 0px  rgba(240, 239, 238, 0.3), 
+                             40px 40px 10px -40px  rgba(255, 255, 255, 0.8) inset;
+}
+.summ{
+    font-size: 14px;
+    word-spacing: 3px;
+    color:lightgray;
+    text-align: justify;
+    text-transform: initial;
+}
+.det ul li
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.educat
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.msc
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.msc span
+{
+    font-size: 18px;
+    background-color: rgb(96, 96, 188);
+    color: rgb(7, 234, 158);
+    font-weight: normal;
+    margin-left: 20px;
+    padding: 5px;
+}
+.college
+{
+    font-size: 16px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+}
+.college span
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-transform: initial;
+    color:lightgray;
+}
+.flip
+{
+    width: 250px;
+    height: 150px;
+    background-color:transparent;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flipin
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0  rgb(0, 114, 195);
+    border-radius: 40px;
+}
+.flip:hover .flipin
+{
+    transform: rotateY(180deg);
+}
+.fronts,.back
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.fronts
+{
+    background-color:  rgb(0, 114, 195);
+    color: rgb(0, 6, 0);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+.back
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 6, 0);
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 40px;
+}
+.ones
+{
+    margin: 50px;
+    color:rgb(255, 255, 255) ;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.two
+{
+    margin: 30px;
+    color: rgb(0, 6, 0);
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+#port
+{
+    width: 100%;
+    
+    padding: 20px;
+    background-color:#13303e;
+    background-size: cover;
+    color: white ;
+}
+.nam
+{
+
+    /*border-bottom: 4px solid rgb(82, 187, 229);*/
+    width:50px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight:150px;
+    color:  #ffffff; 
+    text-transform: uppercase;
+    
+}
+.fone
+{
+    width: 250px;
+    height:250px;
+    border-radius: 30px;
+}
+.port-item
+{
+    background-color: white;
+    width: 250px;
+    text-align: center;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.port-info
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right top, #073d69, #064d85, #065ea2, #086fbf, #0e81de) ;margin-left:45px ;opacity: 0.8;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform:scale(0);
+    transition: 0.4s;
+    border-radius: 30px;
+    visibility: hidden;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.port-item:hover .port-info
+{
+    transform: scale(1);
+    visibility: visible;
+}
+.port-info a
+{
+    text-decoration: none;
+    display: inline;
+    font-size: 20px;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 46px;
+    transition: 0.4s;
+    color: rgb(0, 0, 0);
+}
+.port-info a:hover
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+#contact
+{
+    width: 100%;
+    
+    background-color:#000000;
+    color: white;
+
+}
+.namo
+{
+    text-align: center;
+    /*border-bottom: 4px solid rgb(82, 187, 229);*/
+    width:50px;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight:150px;
+    color:  #ffffff; 
+    text-transform: uppercase;
+}
+.contacts
+{
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    padding: 40px;
+    color: white;
+}
+.contact-left
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0px 0;
+    color: white;
+}
+.icon i
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 114, 195);
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: rgb(0, 114, 195);
+    transition: 0.5s;
+} 
+.contact-left:hover .icon i
+{
+    background-color: rgb(0, 114, 195);
+    color: beige;
+}
+.infor h4
+{
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+}
+.infor p
+{
+     font-size: 13px;
+     font-weight: 500;
+}
+.send
+{
+    margin-top: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,20%);
+    border-radius: 30px;
+    width: 380px;
+    margin-left: 20px;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 30px 0;
+    color: white;
+}
+form input,textarea
+{
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 114, 195);
+    border-radius: 2px;
+    transition: 0.4s;
+}
+form input:focus,textarea:focus
+{
+    border: 2px solid rgb(101, 226, 167);
+}
+#name
+{
+    background-color: transparent;
+}
+#email
+{
+    background-color: transparent;
+}
+#subject
+{
+    background-color: transparent;
+}
+#msg
+{
+    background-color: transparent;
+}
+.you:hover
+{
+    /*color: white;*/
+    /* Safari and Chrome */
+  /*-webkit-box-shadow: 7px 7px 20px 0px  rgb(228, 237, 228), 
+                                     40px 40px 10px -40px  rgba(255, 255, 255, 0.701) inset;/*X-Axis, Y-Axis, Feather, Size, Color*/
+ /* CSS3 */
+  /*box-shadow: 7px 7px 20px 0px  rgb(255, 255, 255), 
+                         40px 40px 10px -40px  rgba(245, 243, 247, 0.8) inset;*/
+
+}
